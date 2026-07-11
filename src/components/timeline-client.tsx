@@ -24,7 +24,9 @@ function bucketTimeline(entries: { ts: string; url: string }[]): Bucket[] {
 }
 
 export default function TimelineClient({ state }: { state: DashboardState }) {
-  const timeline = state.postedTimeline || []
+  const rawTimeline = state.postedTimeline || []
+  const timeline: { ts: string; url: string }[] = rawTimeline.length > 0 ? rawTimeline
+    : state.postedLinks.map(u => ({ ts: '', url: u }))
   const buckets = bucketTimeline(timeline)
   const [activeBucketIdx, setActiveBucketIdx] = useState<number | null>(null)
 

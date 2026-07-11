@@ -15,15 +15,16 @@ export default function OverviewClient({ state, products, offers, categories, co
   commBuckets: Record<string, number>
 }) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+  const normCat = selectedCategory?.toLowerCase().trim() ?? null
 
   const categoryCounts = categories.map(c => ({
-    name: c, value: products.filter(p => p.category === c).length
+    name: c, value: products.filter(p => (p.category ?? '').toLowerCase().trim() === c.toLowerCase().trim()).length
   }))
   const commData = Object.entries(commBuckets).map(([name, value]) => ({ name, value }))
 
   const topProducts = [...products]
     .filter(p => p.commission != null)
-    .filter(p => !selectedCategory || p.category === selectedCategory)
+    .filter(p => !selectedCategory || (p.category ?? '').toLowerCase().trim() === normCat)
     .sort((a, b) => (b.commission || 0) - (a.commission || 0))
     .slice(0, 10)
 
@@ -83,7 +84,7 @@ export default function OverviewClient({ state, products, offers, categories, co
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-muted-foreground w-5 text-xs font-medium">#{i + 1}</span>
                     <span className="truncate max-w-[300px]">{p.name}</span>
-                    <Badge variant={selectedCategory === p.category ? 'default' : 'outline'}>{p.category}</Badge>
+                    <Badge variant={selectedCategory && (p.category ?? '').toLowerCase().trim() === normCat ? 'default' : 'outline'}>{p.category}</Badge>
                   </div>
                   <div className="flex items-center gap-4 shrink-0">
                     <span className="text-muted-foreground">{p.price_raw}</span>

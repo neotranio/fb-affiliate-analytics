@@ -44,8 +44,8 @@ export function KpiCard({ title, value, icon, trend, color }: KpiCardProps) {
   return (
     <Card className="card-hover">
       <CardContent className="p-5">
-        <div ref={ref} className="flex items-start justify-between">
-          <div className="space-y-2">
+        <div ref={ref} className="flex items-center justify-between">
+          <div className="space-y-1">
             <p className="text-sm font-medium text-muted-foreground">{title}</p>
             <p className="text-2xl font-bold" style={color ? { color } : undefined}>
               {typeof value === 'number' ? displayValue.toLocaleString() : value}
