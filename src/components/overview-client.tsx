@@ -40,12 +40,12 @@ export default function OverviewClient({ state, products, offers, categories, co
   return (
     <>
       <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-        <KpiCard title="Links Posted" value={state.totalPostedLinks} icon={<Link className="h-5 w-5" />} color="#6366f1" />
-        <KpiCard title="Groups Reached" value={state.totalGroups} icon={<Users className="h-5 w-5" />} color="#8b5cf6" />
-        <KpiCard title="Accounts" value={state.activeAccounts} icon={<UserCheck className="h-5 w-5" />} color="#a855f7" />
-        <KpiCard title="Products" value={products.length} icon={<ShoppingBag className="h-5 w-5" />} color="#ec4899" />
-        <KpiCard title="Offers" value={offers.length} icon={<Tag className="h-5 w-5" />} color="#f97316" />
-        <KpiCard title="Cycle" value={state.currentCycle + 1} icon={<RefreshCw className="h-5 w-5" />} color="#22c55e" />
+        <KpiCard title="Links Posted" value={state.totalPostedLinks} icon={<Link className="h-4 w-4" />} color="#6366f1" />
+        <KpiCard title="Groups Reached" value={state.totalGroups} icon={<Users className="h-4 w-4" />} color="#8b5cf6" />
+        <KpiCard title="Accounts" value={state.activeAccounts} icon={<UserCheck className="h-4 w-4" />} color="#a855f7" />
+        <KpiCard title="Products" value={products.length} icon={<ShoppingBag className="h-4 w-4" />} color="#ec4899" />
+        <KpiCard title="Offers" value={offers.length} icon={<Tag className="h-4 w-4" />} color="#f97316" />
+        <KpiCard title="Cycle" value={state.currentCycle + 1} icon={<RefreshCw className="h-4 w-4" />} color="#22c55e" />
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">

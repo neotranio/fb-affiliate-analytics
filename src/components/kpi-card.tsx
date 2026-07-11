@@ -44,26 +44,24 @@ export function KpiCard({ title, value, icon, trend, color }: KpiCardProps) {
   return (
     <Card className="card-hover">
       <CardContent className="p-5">
-        <div ref={ref} className="flex items-center justify-between">
-          <div>
+        <div ref={ref} className="flex flex-col gap-1.5">
+          <div className="flex items-center gap-2">
+            <div className="text-primary shrink-0">{icon}</div>
             <p className="text-sm font-medium text-muted-foreground">{title}</p>
-            <p className="text-2xl font-bold" style={color ? { color } : undefined}>
-              {typeof value === 'number' ? displayValue.toLocaleString() : value}
-            </p>
-            {trend && (
-              <div className="flex items-center gap-1 text-xs">
-                {trend.value >= 0
-                  ? <TrendingUp className="h-3 w-3 text-success" />
-                  : <TrendingDown className="h-3 w-3 text-danger" />}
-                <span className={trend.value >= 0 ? 'text-success' : 'text-danger'}>
-                  {trend.value >= 0 ? '+' : ''}{trend.value}% {trend.label}
-                </span>
-              </div>
-            )}
           </div>
-          <div className="rounded-lg bg-primary/10 p-2 text-primary shrink-0">
-            {icon}
-          </div>
+          <p className="text-2xl font-bold" style={color ? { color } : undefined}>
+            {typeof value === 'number' ? displayValue.toLocaleString() : value}
+          </p>
+          {trend && (
+            <div className="flex items-center gap-1 text-xs">
+              {trend.value >= 0
+                ? <TrendingUp className="h-3 w-3 text-success" />
+                : <TrendingDown className="h-3 w-3 text-danger" />}
+              <span className={trend.value >= 0 ? 'text-success' : 'text-danger'}>
+                {trend.value >= 0 ? '+' : ''}{trend.value}% {trend.label}
+              </span>
+            </div>
+          )}
         </div>
       </CardContent>
     </Card>
