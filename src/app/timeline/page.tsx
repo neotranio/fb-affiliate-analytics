@@ -1,7 +1,7 @@
 import { getState } from '@/lib/data'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Link, Globe, User } from 'lucide-react'
+import { Link, Globe, RefreshCw, User } from 'lucide-react'
 
 export default function TimelinePage() {
   const state = getState()
@@ -25,36 +25,36 @@ export default function TimelinePage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-3 mb-6">
-        <Card>
+        <Card className="card-hover">
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Total Posts</CardTitle>
-            <Link className="h-4 w-4 text-muted-foreground" />
+            <Link className="h-5 w-5 text-muted-foreground" />
           </CardHeader>
           <CardContent><p className="text-2xl font-bold">{state.totalPostedLinks}</p></CardContent>
         </Card>
         <Card>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Groups</CardTitle>
-            <Globe className="h-4 w-4 text-muted-foreground" />
+            <Globe className="h-5 w-5 text-muted-foreground" />
           </CardHeader>
           <CardContent><p className="text-2xl font-bold">{state.totalGroups}</p></CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Cycle</CardTitle>
-            <User className="h-4 w-4 text-muted-foreground" />
+            <RefreshCw className="h-5 w-5 text-muted-foreground" />
           </CardHeader>
           <CardContent><p className="text-2xl font-bold">{state.currentCycle + 1}</p></CardContent>
         </Card>
       </div>
 
       {state.accounts.length > 0 && (
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Account Activity</CardTitle></CardHeader>
           <CardContent className="p-0">
             <div className="divide-y divide-border">
               {state.accounts.map((acct, i) => (
-                <div key={acct.email} className="flex items-center justify-between px-6 py-4">
+                <div key={acct.email} className="flex items-center justify-between px-6 py-4 transition-colors duration-150 hover:bg-muted/30">
                   <div className="flex items-center gap-4">
                     <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center">
                       <User className="h-4 w-4 text-primary" />
@@ -77,7 +77,7 @@ export default function TimelinePage() {
         </Card>
       )}
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader><CardTitle>Latest Posted Links</CardTitle></CardHeader>
         <CardContent className="p-0">
           <div className="divide-y divide-border max-h-[400px] overflow-y-auto">

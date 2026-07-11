@@ -53,17 +53,17 @@ export function OffersExplorer({ offers }: { offers: Offer[] }) {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
-          <CardHeader><CardTitle>By Source</CardTitle></CardHeader>
+        <Card className="card-hover">
+          <CardHeader className="border-b border-border/50"><CardTitle className="flex items-center gap-2"><span className="h-1.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 inline-block" /> By Source</CardTitle></CardHeader>
           <CardContent><BarChartCard data={sourceData} dataKey="value" nameKey="name" color="#a855f7" height={200} /></CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Commission Rate Distribution</CardTitle></CardHeader>
           <CardContent><BarChartCard data={rateBuckets} dataKey="value" nameKey="name" color="#f97316" height={200} /></CardContent>
         </Card>
       </div>
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <CardTitle>All Offers</CardTitle>
@@ -96,7 +96,7 @@ export function OffersExplorer({ offers }: { offers: Offer[] }) {
             </THead>
             <TBody>
               {filtered.map((o, i) => (
-                <Tr key={i}>
+                <Tr key={i} className="transition-colors duration-150 hover:bg-muted/30">
                   <Td className="text-muted-foreground text-xs">{i + 1}</Td>
                   <Td className="max-w-[350px] truncate font-medium" title={o.name}>{o.name}</Td>
                   <Td><Badge variant={o.commissionRate.includes('up to') ? 'warning' : 'success'}>{o.commissionRate}</Badge></Td>

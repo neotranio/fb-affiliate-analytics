@@ -1,6 +1,7 @@
 'use client'
 import { Card, CardContent } from '@/components/ui/card'
 import { TrendingUp, TrendingDown } from 'lucide-react'
+import { useEffect, useState, useRef } from 'react'
 
 interface KpiCardProps {
   title: string
@@ -11,13 +12,44 @@ interface KpiCardProps {
 }
 
 export function KpiCard({ title, value, icon, trend, color }: KpiCardProps) {
+  const [displayValue, setDisplayValue] = useState(0)
+  const [animDone, setAnimDone] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+  const numVal = typeof value === 'number' ? value : parseInt(String(value)) || 0
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !animDone) {
+        setAnimDone(true)
+        const duration = 800
+        const steps = 30
+        const stepTime = duration / steps
+        let current = 0
+        const increment = numVal / steps
+        const timer = setInterval(() => {
+          current += increment
+          if (current >= numVal) {
+            setDisplayValue(numVal)
+            clearInterval(timer)
+          } else {
+            setDisplayValue(Math.round(current))
+          }
+        }, stepTime)
+      }
+    }, { threshold: 0.3 })
+    if (ref.current) observer.observe(ref.current)
+    return () => observer.disconnect()
+  }, [numVal, animDone])
+
   return (
-    <Card>
+    <Card className="card-hover">
       <CardContent className="p-5">
-        <div className="flex items-start justify-between">
+        <div ref={ref} className="flex items-start justify-between">
           <div className="space-y-2">
             <p className="text-sm font-medium text-muted-foreground">{title}</p>
-            <p className="text-2xl font-bold" style={color ? { color } : undefined}>{value}</p>
+            <p className="text-2xl font-bold" style={color ? { color } : undefined}>
+              {typeof value === 'number' ? displayValue.toLocaleString() : value}
+            </p>
             {trend && (
               <div className="flex items-center gap-1 text-xs">
                 {trend.value >= 0
@@ -29,7 +61,9 @@ export function KpiCard({ title, value, icon, trend, color }: KpiCardProps) {
               </div>
             )}
           </div>
-          <div className="rounded-lg bg-primary/10 p-2.5 text-primary">{icon}</div>
+          <div className="rounded-lg bg-primary/10 p-2.5 text-primary transition-transform duration-200 group-hover:scale-110">
+            {icon}
+          </div>
         </div>
       </CardContent>
     </Card>

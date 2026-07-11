@@ -48,14 +48,14 @@ export function ProductExplorer({ products }: { products: Product[] }) {
         <p className="text-muted-foreground text-sm mt-1">{products.length} products from {categories.length} categories</p>
       </div>
 
-      <Card>
-        <CardHeader><CardTitle>Products by Category</CardTitle></CardHeader>
+      <Card className="card-hover">
+        <CardHeader className="border-b border-border/50"><CardTitle className="flex items-center gap-2"><span className="h-1.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 inline-block" /> Products by Category</CardTitle></CardHeader>
         <CardContent>
           <BarChartCard data={categoryStats} dataKey="count" nameKey="name" color="#8b5cf6" height={250} />
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <CardTitle>Product Explorer</CardTitle>
@@ -94,7 +94,7 @@ export function ProductExplorer({ products }: { products: Product[] }) {
                 </THead>
                 <TBody>
                   {pageItems.map((p, i) => (
-                    <Tr key={p.id + i + ''}>
+                    <Tr key={p.id + i + ''} className="transition-colors duration-150 hover:bg-muted/30">
                       <Td className="text-muted-foreground text-xs">{page * pageSize + i + 1}</Td>
                       <Td className="max-w-[300px] truncate font-medium" title={p.name}>{p.name}</Td>
                       <Td>{p.price_raw}</Td>

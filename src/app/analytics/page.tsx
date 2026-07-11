@@ -1,10 +1,9 @@
-import { getState, getProducts, getCategories, summarizeCommissionRates, summarizePriceRanges } from '@/lib/data'
+import { getProducts, getCategories, summarizeCommissionRates, summarizePriceRanges } from '@/lib/data'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { BarChartCard, PieChartCard } from '@/components/charts'
 
 export default function AnalyticsPage() {
-  const state = getState()
   const products = getProducts()
   const categories = getCategories(products)
   const categoryCounts = categories.map(c => ({
@@ -44,33 +43,33 @@ export default function AnalyticsPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
-          <CardHeader><CardTitle>Category Distribution</CardTitle></CardHeader>
+        <Card className="card-hover">
+          <CardHeader className="border-b border-border/50"><CardTitle className="flex items-center gap-2"><span className="h-1.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 inline-block" /> Category Distribution</CardTitle></CardHeader>
           <CardContent><PieChartCard data={categoryCounts} dataKey="value" nameKey="name" height={300} /></CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Product Categories</CardTitle></CardHeader>
           <CardContent><BarChartCard data={categoryCounts} dataKey="value" nameKey="name" title="Count by category" height={250} /></CardContent>
         </Card>
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Commission Rates</CardTitle></CardHeader>
           <CardContent><BarChartCard data={commData} dataKey="value" nameKey="name" title="Number of products per commission tier" height={250} /></CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Price Ranges</CardTitle></CardHeader>
           <CardContent><BarChartCard data={priceData} dataKey="value" nameKey="name" title="Products grouped by price" height={250} color="#f97316" /></CardContent>
         </Card>
       </div>
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader><CardTitle>Category Breakdown</CardTitle></CardHeader>
         <CardContent className="p-0">
           <div className="divide-y divide-border text-sm">
             {cats.map(c => (
-              <div key={c.name} className="flex items-center justify-between px-6 py-3">
+              <div key={c.name} className="flex items-center justify-between px-6 py-3 transition-colors duration-150 hover:bg-muted/30">
                 <div className="flex items-center gap-3">
                   <Badge>{c.name}</Badge>
                   <span className="text-muted-foreground">{c.value} products</span>
@@ -92,12 +91,12 @@ export default function AnalyticsPage() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader><CardTitle>Top 10 by Sales Volume</CardTitle></CardHeader>
         <CardContent className="p-0">
           <div className="divide-y divide-border text-sm">
             {topBySales.map((p, i) => (
-              <div key={p.id + i} className="flex items-center justify-between px-6 py-3">
+              <div key={p.id + i} className="flex items-center justify-between px-6 py-3 transition-colors duration-150 hover:bg-muted/30">
                 <div className="flex items-center gap-3 min-w-0">
                   <span className="text-muted-foreground w-5 text-xs font-medium">#{i + 1}</span>
                   <span className="truncate max-w-[350px]">{p.name}</span>

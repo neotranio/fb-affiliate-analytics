@@ -7,6 +7,7 @@ export interface AccountInfo {
 }
 
 export interface DashboardState {
+  version?: string;
   totalPostedLinks: number;
   totalGroups: number;
   activeAccounts: number;

@@ -1,4 +1,4 @@
-import { getState, getProducts, getOffers, getGroups, getCategories, summarizeCommissionRates } from '@/lib/data'
+import { getState, getProducts, getOffers, getCategories, summarizeCommissionRates } from '@/lib/data'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { KpiCard } from '@/components/kpi-card'
@@ -9,7 +9,6 @@ export default function OverviewPage() {
   const state = getState()
   const products = getProducts()
   const offers = getOffers()
-  const groups = getGroups()
   const categories = getCategories(products)
   const commBuckets = summarizeCommissionRates(products)
 
@@ -49,13 +48,13 @@ export default function OverviewPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
-          <CardHeader><CardTitle>Product Categories</CardTitle></CardHeader>
+        <Card className="card-hover">
+          <CardHeader className="border-b border-border/50"><CardTitle className="flex items-center gap-2"><span className="h-1.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 inline-block" /> Product Categories</CardTitle></CardHeader>
           <CardContent>
             <PieChartCard data={categoryCounts} dataKey="value" nameKey="name" height={280} />
           </CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Commission Rate Distribution</CardTitle></CardHeader>
           <CardContent>
             <BarChartCard data={commData} dataKey="value" nameKey="name" color="#8b5cf6" height={280} />
@@ -64,12 +63,12 @@ export default function OverviewPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Top 10 Products by Commission</CardTitle></CardHeader>
           <CardContent className="p-0">
             <div className="divide-y divide-border text-sm">
               {topProducts.map((p, i) => (
-                <div key={p.id} className="flex items-center justify-between px-6 py-3">
+                <div key={p.id} className="flex items-center justify-between px-6 py-3 transition-colors duration-150 hover:bg-muted/30">
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-muted-foreground w-5 text-xs font-medium">#{i + 1}</span>
                     <span className="truncate max-w-[300px]">{p.name}</span>
@@ -84,12 +83,12 @@ export default function OverviewPage() {
             </div>
           </CardContent>
         </Card>
-        <Card>
+        <Card className="card-hover">
           <CardHeader><CardTitle>Top Shops</CardTitle></CardHeader>
           <CardContent className="p-0">
             <div className="divide-y divide-border text-sm">
               {topShops.slice(0, 8).map((s, i) => (
-                <div key={s.name} className="flex items-center justify-between px-6 py-3">
+                <div key={s.name} className="flex items-center justify-between px-6 py-3 transition-colors duration-150 hover:bg-muted/30">
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-muted-foreground w-5 text-xs font-medium">#{i + 1}</span>
                     <span className="truncate max-w-[300px]">{s.name}</span>

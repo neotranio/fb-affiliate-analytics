@@ -26,14 +26,14 @@ export default function GroupsPage() {
         <p className="text-muted-foreground text-sm mt-1">{groups.length} Facebook groups reached with {state.totalPostedLinks} affiliate links</p>
       </div>
 
-      <Card>
-        <CardHeader><CardTitle>Posts per Group Distribution</CardTitle></CardHeader>
+      <Card className="card-hover">
+        <CardHeader className="border-b border-border/50"><CardTitle className="flex items-center gap-2"><span className="h-1.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 inline-block" /> Posts per Group Distribution</CardTitle></CardHeader>
         <CardContent>
           <BarChartCard data={postDist} dataKey="value" nameKey="name" color="#06b6d4" height={250} />
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="card-hover">
         <CardHeader><CardTitle>Top Groups by Post Count</CardTitle></CardHeader>
         <CardContent className="p-0">
           <Table>
@@ -47,12 +47,12 @@ export default function GroupsPage() {
             </THead>
             <TBody>
               {topGroups.map((g, i) => (
-                <Tr key={g.url}>
+                <Tr key={g.url} className="transition-colors duration-150 hover:bg-muted/30">
                   <Td className="text-muted-foreground text-xs">{i + 1}</Td>
                   <Td className="max-w-[400px] truncate">
                     <a href={g.url} target="_blank" rel="noopener noreferrer"
                       className="text-primary hover:underline flex items-center gap-2">
-                      <Globe className="h-3 w-3" /> {g.url}
+                      <Globe className="h-4 w-4" /> {g.url}
                     </a>
                   </Td>
                   <Td><Badge variant="success">{g.totalPosts}</Badge></Td>
