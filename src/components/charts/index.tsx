@@ -6,7 +6,8 @@ const COLORS = ['#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e'
 const renderPieLabel = (entry: any) => {
   const { name, percent } = entry
   if (percent < 0.05) return ''
-  return `${(percent * 100).toFixed(0)}%`
+  const shortName = name.length > 12 ? name.slice(0, 12) + '\u2026' : name
+  return `${shortName} ${(percent * 100).toFixed(0)}%`
 }
 
 export function BarChartCard({ data, dataKey, nameKey, title, color = '#6366f1', height = 300 }: {
@@ -27,8 +28,8 @@ export function BarChartCard({ data, dataKey, nameKey, title, color = '#6366f1',
   )
 }
 
-export function PieChartCard({ data, dataKey, nameKey, title, height = 300 }: {
-  data: any[]; dataKey: string; nameKey: string; title?: string; height?: number
+export function PieChartCard({ data, dataKey, nameKey, title, height = 300, onSliceClick }: {
+  data: any[]; dataKey: string; nameKey: string; title?: string; height?: number; onSliceClick?: (name: string) => void
 }) {
   return (
     <div>
@@ -37,8 +38,12 @@ export function PieChartCard({ data, dataKey, nameKey, title, height = 300 }: {
         <PieChart>
           <Pie data={data} dataKey={dataKey} nameKey={nameKey} cx="50%" cy="50%" outerRadius={90}
             label={renderPieLabel} labelLine={true}
+            cursor={onSliceClick ? 'pointer' : undefined}
             isAnimationActive={true} animationBegin={100} animationDuration={700} animationEasing="ease-out">
-            {data.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
+            {data.map((entry, i) => (
+              <Cell key={i} fill={COLORS[i % COLORS.length]}
+                onMouseDown={onSliceClick ? () => onSliceClick(entry[nameKey]) : undefined} />
+            ))}
           </Pie>
           <Tooltip contentStyle={{ background: 'var(--card)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12 }} />
           <Legend verticalAlign="bottom" height={36} iconType="circle" iconSize={8}
@@ -49,16 +54,22 @@ export function PieChartCard({ data, dataKey, nameKey, title, height = 300 }: {
   )
 }
 
-export function AreaChartCard({ data, dataKey, nameKey, title, height = 200 }: {
-  data: any[]; dataKey: string; nameKey: string; title?: string; height?: number
+export function AreaChartCard({ data, dataKey, nameKey, title, height = 200, onHover }: {
+  data: any[]; dataKey: string; nameKey: string; title?: string; height?: number; onHover?: (activeIndex: number | null) => void
 }) {
+  const handleMouseMove = onHover ? (state: any) => {
+    if (state?.activeTooltipIndex !== undefined) {
+      onHover(state.activeTooltipIndex)
+    }
+  } : undefined
+  const handleMouseLeave = onHover ? () => onHover(null) : undefined
   return (
     <div>
       {title && <h4 className="text-sm font-medium text-muted-foreground mb-3">{title}</h4>}
       <ResponsiveContainer width="100%" height={height}>
-        <AreaChart data={data}>
+        <AreaChart data={data} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
           <XAxis dataKey={nameKey} tick={{ fontSize: 11 }} axisLine={false} tickLine={false} />
-          <YAxis tick={{ fontSize: 11 }} axisLine={false} tickLine={false} />
+          <YAxis tick={{ fontSize: 11 }} axisLine={false} tickLine={false} allowDecimals={false} />
           <Tooltip contentStyle={{ background: 'var(--card)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12 }} />
           <Area type="monotone" dataKey={dataKey} stroke="#6366f1" fill="#6366f1" fillOpacity={0.15} strokeWidth={2}
             isAnimationActive={true} animationDuration={600} animationEasing="ease-out" />

@@ -6,6 +6,11 @@ export interface AccountInfo {
   anonymous_commented: number;
 }
 
+export interface TimelineEntry {
+  ts: string;
+  url: string;
+}
+
 export interface DashboardState {
   version?: string;
   totalPostedLinks: number;
@@ -14,6 +19,7 @@ export interface DashboardState {
   currentCycle: number;
   lastUpdated: string;
   postedLinks: string[];
+  postedTimeline?: TimelineEntry[];
   groupLinkMap: Record<string, string[]>;
   accounts: AccountInfo[];
 }
