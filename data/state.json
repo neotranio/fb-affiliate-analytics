@@ -1,12 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 585,
+  "totalPostedLinks": 586,
   "totalGroups": 501,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-12T22:31:37.295134",
+  "lastUpdated": "2026-07-12T22:32:46.252739",
   "postedLinks": [
-    "https://s.shopee.vn/8Kni0mWP0a",
     "https://s.shopee.vn/W4qgGrVA2",
     "https://s.shopee.vn/2BD4fTXHKa",
     "https://s.shopee.vn/3LP23TgiPt",
@@ -505,7 +504,8 @@
     "https://s.shopee.vn/20teWYWTLN",
     "https://s.shopee.vn/1LdxjKZ0hJ",
     "https://s.shopee.vn/qhh8PauiG",
-    "https://s.shopee.vn/18a8se5PB"
+    "https://s.shopee.vn/18a8se5PB",
+    "https://s.shopee.vn/LlQXUcojH"
   ],
   "postedTimeline": [
     {
@@ -1767,6 +1767,10 @@
     {
       "ts": "2026-07-12T22:31:20.501905",
       "url": "https://s.shopee.vn/18a8se5PB"
+    },
+    {
+      "ts": "2026-07-12T22:32:17.187489",
+      "url": "https://s.shopee.vn/LlQXUcojH"
     }
   ],
   "groupLinkMap": {
@@ -1975,7 +1979,8 @@
       "https://s.shopee.vn/1qaEGimQSQ",
       "https://s.shopee.vn/3LP23VrJtx",
       "https://s.shopee.vn/4VazUzrbD6",
-      "https://s.shopee.vn/3qLIhp1rVY"
+      "https://s.shopee.vn/3qLIhp1rVY",
+      "https://s.shopee.vn/LlQXUcojH"
     ],
     "https://www.facebook.com/groups/thanhlymipham.vn": [
       "https://s.shopee.vn/3LP23C8CK4"
@@ -2435,8 +2440,8 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 15,
-      "groups_used_count": 15,
+      "posted_count": 16,
+      "groups_used_count": 16,
       "status": "active",
       "anonymous_commented": 0
     },
