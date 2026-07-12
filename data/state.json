@@ -1,13 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 598,
-  "totalGroups": 509,
+  "totalPostedLinks": 600,
+  "totalGroups": 510,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-12T23:37:34.787308",
+  "lastUpdated": "2026-07-12T23:53:06.845053",
   "postedLinks": [
-    "https://s.shopee.vn/qhh4sqEU8",
-    "https://s.shopee.vn/1LdxfwaS0S",
     "https://s.shopee.vn/4fuPde37dF",
     "https://s.shopee.vn/80ArcCB4UP",
     "https://s.shopee.vn/60PnEY0YNu",
@@ -505,7 +503,9 @@
     "https://s.shopee.vn/7prRTHAGW2",
     "https://s.shopee.vn/70IKTkDRCx",
     "https://s.shopee.vn/6AjDUDGbto",
-    "https://s.shopee.vn/60PnHuHFEn"
+    "https://s.shopee.vn/60PnHuHFEn",
+    "https://s.shopee.vn/4fuPhTm2WP",
+    "https://s.shopee.vn/50XG65klqV"
   ],
   "postedTimeline": [
     {
@@ -1819,6 +1819,14 @@
     {
       "ts": "2026-07-12T22:48:08.541367",
       "url": "https://s.shopee.vn/60PnHuHFEn"
+    },
+    {
+      "ts": "2026-07-12T23:49:11.296146",
+      "url": "https://s.shopee.vn/4fuPhTm2WP"
+    },
+    {
+      "ts": "2026-07-12T23:52:19.149484",
+      "url": "https://s.shopee.vn/50XG65klqV"
     }
   ],
   "groupLinkMap": {
@@ -2410,7 +2418,8 @@
     ],
     "https://www.facebook.com/groups/485679586042168": [
       "https://s.shopee.vn/2qSlSfrLB5",
-      "https://s.shopee.vn/8AUHrpoPqT"
+      "https://s.shopee.vn/8AUHrpoPqT",
+      "https://s.shopee.vn/50XG65klqV"
     ],
     "https://www.facebook.com/groups/3317612531592660": [
       "https://s.shopee.vn/20teT8uVs6"
@@ -2488,15 +2497,15 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 28,
-      "groups_used_count": 28,
+      "posted_count": 0,
+      "groups_used_count": 0,
       "status": "active",
       "anonymous_commented": 0
     },
     {
       "email": "tgh162003@gmail.com",
-      "posted_count": 30,
-      "groups_used_count": 30,
+      "posted_count": 0,
+      "groups_used_count": 0,
       "status": "active",
       "anonymous_commented": 0
     }
