@@ -1,12 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 578,
+  "totalPostedLinks": 579,
   "totalGroups": 499,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-12T22:21:38.443740",
+  "lastUpdated": "2026-07-12T22:22:44.584636",
   "postedLinks": [
-    "https://s.shopee.vn/6L2dcTpZpw",
     "https://s.shopee.vn/6ffU1ickOQ",
     "https://s.shopee.vn/5fmwprCMmf",
     "https://s.shopee.vn/20teTCFmUk",
@@ -505,7 +504,8 @@
     "https://s.shopee.vn/AUsCeB075n",
     "https://s.shopee.vn/9fJ5ee3Hmg",
     "https://s.shopee.vn/8fQYSo75oW",
-    "https://s.shopee.vn/8pjyf76STZ"
+    "https://s.shopee.vn/8pjyf76STZ",
+    "https://s.shopee.vn/903OrQ5p8c"
   ],
   "postedTimeline": [
     {
@@ -1739,6 +1739,10 @@
     {
       "ts": "2026-07-12T22:21:05.278122",
       "url": "https://s.shopee.vn/8pjyf76STZ"
+    },
+    {
+      "ts": "2026-07-12T22:21:57.161062",
+      "url": "https://s.shopee.vn/903OrQ5p8c"
     }
   ],
   "groupLinkMap": {
@@ -2338,7 +2342,8 @@
     "https://www.facebook.com/groups/thichmuasamonline2023": [
       "https://s.shopee.vn/1117HIyJu0",
       "https://s.shopee.vn/4LHZIn30c7",
-      "https://s.shopee.vn/3B5buhS1y3"
+      "https://s.shopee.vn/3B5buhS1y3",
+      "https://s.shopee.vn/903OrQ5p8c"
     ],
     "https://www.facebook.com/groups/1045918365884475": [
       "https://s.shopee.vn/gOGsgzaZy",
@@ -2403,8 +2408,8 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 8,
-      "groups_used_count": 8,
+      "posted_count": 9,
+      "groups_used_count": 9,
       "status": "active",
       "anonymous_commented": 0
     },
