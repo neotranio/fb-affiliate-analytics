@@ -53,16 +53,20 @@ export function KpiCard({ title, value, icon, trend, color, className }: KpiCard
           <p className="text-2xl font-bold" style={color ? { color } : undefined}>
             {typeof value === 'number' ? displayValue.toLocaleString() : value}
           </p>
-          {trend && (
-            <div className="flex items-center gap-1 text-xs">
-              {trend.value >= 0
-                ? <TrendingUp className="h-3 w-3 text-success" />
-                : <TrendingDown className="h-3 w-3 text-danger" />}
-              <span className={trend.value >= 0 ? 'text-success' : 'text-danger'}>
-                {trend.value >= 0 ? '+' : ''}{trend.value}% {trend.label}
-              </span>
-            </div>
-          )}
+          <div className={`flex items-center gap-1 text-xs ${trend ? '' : 'invisible'}`}>
+            {trend ? (
+              <>
+                {trend.value >= 0
+                  ? <TrendingUp className="h-3 w-3 text-success" />
+                  : <TrendingDown className="h-3 w-3 text-danger" />}
+                <span className={trend.value >= 0 ? 'text-success' : 'text-danger'}>
+                  {trend.value >= 0 ? '+' : ''}{trend.value}% {trend.label}
+                </span>
+              </>
+            ) : (
+              <span className="text-transparent">_</span>
+            )}
+          </div>
         </div>
       </CardContent>
     </Card>
