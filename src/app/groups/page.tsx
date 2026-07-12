@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Table, THead, Th, TBody, Tr, Td } from '@/components/ui/table'
 import { BarChartCard } from '@/components/charts'
-import { Globe } from 'lucide-react'
+
 
 export default function GroupsPage() {
   const state = getState()
@@ -52,7 +52,7 @@ export default function GroupsPage() {
                   <Td className="max-w-[400px] truncate">
                     <a href={g.url} target="_blank" rel="noopener noreferrer"
                       className="text-primary hover:underline flex items-center gap-2">
-                      <Globe className="h-4 w-4" /> {g.url}
+                      {g.url}
                     </a>
                   </Td>
                   <Td><Badge variant="success">{g.totalPosts}</Badge></Td>
