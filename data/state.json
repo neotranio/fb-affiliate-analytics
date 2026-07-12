@@ -1,15 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 660,
-  "totalGroups": 555,
+  "totalPostedLinks": 664,
+  "totalGroups": 558,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-13T01:26:28.205682",
+  "lastUpdated": "2026-07-13T01:41:56.628344",
   "postedLinks": [
-    "https://s.shopee.vn/3LP23ZLFVX",
-    "https://s.shopee.vn/7Abkcc6ek4",
-    "https://s.shopee.vn/9AMozulzUk",
-    "https://s.shopee.vn/7VEb1E5O4E",
     "https://s.shopee.vn/2Vpv3R4AbY",
     "https://s.shopee.vn/40eiqnIiAk",
     "https://s.shopee.vn/9KgFCDlM9Z",
@@ -505,7 +501,11 @@
     "https://s.shopee.vn/8Kni4FhaKG",
     "https://s.shopee.vn/8V78GYgwzJ",
     "https://s.shopee.vn/80Arfdir0E",
-    "https://s.shopee.vn/8AUHrwiDfH"
+    "https://s.shopee.vn/8AUHrwiDfH",
+    "https://s.shopee.vn/8fQYSrgJeQ",
+    "https://s.shopee.vn/9fJ5ehcVce",
+    "https://s.shopee.vn/9pcVr0bsHh",
+    "https://s.shopee.vn/9AMp3mePdV"
   ],
   "postedTimeline": [
     {
@@ -2067,6 +2067,22 @@
     {
       "ts": "2026-07-13T01:24:41.241905",
       "url": "https://s.shopee.vn/8AUHrwiDfH"
+    },
+    {
+      "ts": "2026-07-13T01:32:34.242411",
+      "url": "https://s.shopee.vn/8fQYSrgJeQ"
+    },
+    {
+      "ts": "2026-07-13T01:33:33.221742",
+      "url": "https://s.shopee.vn/9fJ5ehcVce"
+    },
+    {
+      "ts": "2026-07-13T01:34:17.309641",
+      "url": "https://s.shopee.vn/9pcVr0bsHh"
+    },
+    {
+      "ts": "2026-07-13T01:40:32.985369",
+      "url": "https://s.shopee.vn/9AMp3mePdV"
     }
   ],
   "groupLinkMap": {
@@ -2742,15 +2758,15 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 0,
-      "groups_used_count": 0,
+      "posted_count": 3,
+      "groups_used_count": 3,
       "status": "active",
       "anonymous_commented": 0
     },
     {
       "email": "tgh162003@gmail.com",
-      "posted_count": 0,
-      "groups_used_count": 0,
+      "posted_count": 1,
+      "groups_used_count": 1,
       "status": "active",
       "anonymous_commented": 0
     }
