@@ -43,9 +43,9 @@ export function KpiCard({ title, value, icon, trend, color, className }: KpiCard
   }, [numVal, animDone])
 
   return (
-    <Card className={`card-hover h-full ${className || ''}`}>
-      <CardContent className="p-5 h-full">
-        <div ref={ref} className="flex flex-col gap-1.5 justify-center h-full">
+    <Card className={`card-hover flex flex-col ${className || ''}`}>
+      <CardContent className="p-0 flex-1">
+        <div ref={ref} className="flex flex-col gap-1.5 justify-center h-full p-5">
           <div className="flex items-center gap-2">
             <div className="flex items-center justify-center h-5 w-5 text-primary shrink-0">{icon}</div>
             <p className="text-sm font-medium text-muted-foreground leading-5">{title}</p>
