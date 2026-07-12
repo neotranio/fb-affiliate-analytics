@@ -1,12 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 506,
-  "totalGroups": 441,
+  "totalPostedLinks": 507,
+  "totalGroups": 442,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-12T20:34:15.587122",
+  "lastUpdated": "2026-07-12T20:35:23.075617",
   "postedLinks": [
-    "https://s.shopee.vn/2BD4i487DF",
     "https://s.shopee.vn/1BKXTdb5MI",
     "https://s.shopee.vn/50XG2G1qwI",
     "https://s.shopee.vn/50XG2i4MQ7",
@@ -505,7 +504,8 @@
     "https://s.shopee.vn/18a8pJVQ8",
     "https://s.shopee.vn/W4qjkHbPH",
     "https://s.shopee.vn/1LdxjIjEhG",
-    "https://s.shopee.vn/2Vpv7RenKX"
+    "https://s.shopee.vn/2Vpv7RenKX",
+    "https://s.shopee.vn/2BD4ipg40V"
   ],
   "postedTimeline": [
     {
@@ -1451,6 +1451,10 @@
     {
       "ts": "2026-07-12T20:32:44.000335",
       "url": "https://s.shopee.vn/2Vpv7RenKX"
+    },
+    {
+      "ts": "2026-07-12T20:34:21.815179",
+      "url": "https://s.shopee.vn/2BD4ipg40V"
     }
   ],
   "groupLinkMap": {
@@ -2108,8 +2112,8 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 26,
-      "groups_used_count": 26,
+      "posted_count": 27,
+      "groups_used_count": 27,
       "status": "active",
       "anonymous_commented": 0
     },
