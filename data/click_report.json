@@ -1,23 +1,19 @@
 {
-  "sourceFile": "D:\\Document\\Affiliate Automation\\datasource\\raw_shopee_export\\click_report\\WebsiteClickReport202607141043.csv",
-  "exportedAt": "2026-07-14T10:48:21.584343",
+  "sourceFile": "D:\\Document\\Affiliate Automation\\datasource\\raw_shopee_export\\click_report\\WebsiteClickReport202607151337.csv",
+  "exportedAt": "2026-07-15T13:40:20.994620",
   "summary": {
-    "totalClicks": 47,
-    "facebookClicks": 41,
+    "totalClicks": 52,
+    "facebookClicks": 46,
     "otherClicks": 6,
-    "periodFrom": "2026-07-07",
-    "periodTo": "2026-07-13",
+    "periodFrom": "2026-07-10",
+    "periodTo": "2026-07-14",
     "clicksBySubId": {
-      "Facebook-CommissionsXTRA---": 41,
+      "Facebook-CommissionsXTRA---": 46,
       "Facebook-ProductOffer-All--": 3,
       "Facebook-ShopeeOffer---": 3
     }
   },
   "timeline": [
-    {
-      "date": "2026-07-07",
-      "clicks": 2
-    },
     {
       "date": "2026-07-10",
       "clicks": 10
@@ -32,11 +28,15 @@
     },
     {
       "date": "2026-07-13",
-      "clicks": 11
+      "clicks": 12
+    },
+    {
+      "date": "2026-07-14",
+      "clicks": 6
     }
   ],
   "_type": "click",
   "change": {
-    "totalClicksPct": 261.5
+    "totalClicksPct": 10.6
   }
 }

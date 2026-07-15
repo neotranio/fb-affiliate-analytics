@@ -1,15 +1,15 @@
 {
-  "sourceFile": "D:\\Document\\Affiliate Automation\\datasource\\raw_shopee_export\\conversion_report\\AffiliateCommissionReport_202607141043.csv",
-  "exportedAt": "2026-07-14T10:48:21.593353",
+  "sourceFile": "D:\\Document\\Affiliate Automation\\datasource\\raw_shopee_export\\conversion_report\\AffiliateCommissionReport_202607151337.csv",
+  "exportedAt": "2026-07-15T13:40:21.027599",
   "summary": {
-    "totalOrders": 3,
-    "totalItems": 4,
-    "totalCommission": 21374,
-    "totalPurchaseValue": 498390,
-    "pendingCommission": 20494,
-    "completedCommission": 880,
+    "totalOrders": 4,
+    "totalItems": 5,
+    "totalCommission": 43694,
+    "totalPurchaseValue": 994390,
+    "pendingCommission": 36905,
+    "completedCommission": 6789,
     "periodFrom": "2026-07-07",
-    "periodTo": "2026-07-12"
+    "periodTo": "2026-07-14"
   },
   "timeline": [
     {
@@ -26,9 +26,22 @@
       "date": "2026-07-12",
       "orders": 1,
       "commission": 14585
+    },
+    {
+      "date": "2026-07-14",
+      "orders": 1,
+      "commission": 22320
     }
   ],
   "topProducts": [
+    {
+      "name": "UGREEN HiTune Max5c Tai nghe bluetooth chụp tai chống ồn chủ động, pin 75h, bluetooth 5.4, Hi-Res",
+      "shop": "Ugreen Official Mall",
+      "commission": 22320,
+      "qty": 1,
+      "category": "Thiết Bị Âm Thanh",
+      "orderId": "260714MSKR61AA"
+    },
     {
       "name": "⚡Hỏa Tốc⚡ CẦU TRƯỢT CHO BÉ - CẦU TRƯỢT 3 IN 1 - MẪU NAI - MẪU HỒ LY -CÁ HEO - CAO CẤP Toyskingdom",
       "shop": "TOYSKINGDOM.STORE",
@@ -56,7 +69,7 @@
   ],
   "_type": "conversion",
   "change": {
-    "totalOrdersPct": 50.0,
-    "totalCommissionPct": 214.8
+    "totalOrdersPct": 33.3,
+    "totalCommissionPct": 104.4
   }
 }
