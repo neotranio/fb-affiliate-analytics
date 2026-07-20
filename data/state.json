@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 32,
-  "totalGroups": 32,
+  "totalPostedLinks": 38,
+  "totalGroups": 38,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-20T16:31:21.480154",
+  "lastUpdated": "2026-07-20T16:46:58.546246",
   "postedLinks": [
     "https://s.shopee.vn/BSDx9L0HV",
     "https://s.shopee.vn/W54LlJjbb",
@@ -37,7 +37,13 @@
     "https://s.shopee.vn/4fudJQ3s9g",
     "https://s.shopee.vn/9Uzt4IlTMD",
     "https://s.shopee.vn/9pcjSukCgJ",
-    "https://s.shopee.vn/gOUY4J6HZ"
+    "https://s.shopee.vn/gOUY4J6HZ",
+    "https://s.shopee.vn/4AyMiV5mAf",
+    "https://s.shopee.vn/6AjR6AyA77",
+    "https://s.shopee.vn/1LeBLIGYuq",
+    "https://s.shopee.vn/4qE3Vj3Eoj",
+    "https://s.shopee.vn/4VbD774VUl",
+    "https://s.shopee.vn/AUsQG8hfKN"
   ],
   "postedTimeline": [
     {
@@ -167,6 +173,30 @@
     {
       "ts": "2026-07-20T16:27:01.203978",
       "url": "https://s.shopee.vn/gOUY4J6HZ"
+    },
+    {
+      "ts": "2026-07-20T16:33:48.970259",
+      "url": "https://s.shopee.vn/4AyMiV5mAf"
+    },
+    {
+      "ts": "2026-07-20T16:35:12.112878",
+      "url": "https://s.shopee.vn/6AjR6AyA77"
+    },
+    {
+      "ts": "2026-07-20T16:36:33.357752",
+      "url": "https://s.shopee.vn/1LeBLIGYuq"
+    },
+    {
+      "ts": "2026-07-20T16:41:50.268199",
+      "url": "https://s.shopee.vn/4qE3Vj3Eoj"
+    },
+    {
+      "ts": "2026-07-20T16:42:50.867771",
+      "url": "https://s.shopee.vn/4VbD774VUl"
+    },
+    {
+      "ts": "2026-07-20T16:44:33.494914",
+      "url": "https://s.shopee.vn/AUsQG8hfKN"
     }
   ],
   "groupLinkMap": {
@@ -265,6 +295,24 @@
     ],
     "https://www.facebook.com/groups/330758857052732": [
       "https://s.shopee.vn/gOUY4J6HZ"
+    ],
+    "https://www.facebook.com/groups/melamdepvietnam": [
+      "https://s.shopee.vn/4AyMiV5mAf"
+    ],
+    "https://www.facebook.com/groups/936752586829769": [
+      "https://s.shopee.vn/6AjR6AyA77"
+    ],
+    "https://www.facebook.com/groups/207371659596901": [
+      "https://s.shopee.vn/1LeBLIGYuq"
+    ],
+    "https://www.facebook.com/groups/661859651519965": [
+      "https://s.shopee.vn/4qE3Vj3Eoj"
+    ],
+    "https://www.facebook.com/groups/skincarelamdep": [
+      "https://s.shopee.vn/4VbD774VUl"
+    ],
+    "https://www.facebook.com/groups/638043609690687": [
+      "https://s.shopee.vn/AUsQG8hfKN"
     ]
   },
   "accounts": [
