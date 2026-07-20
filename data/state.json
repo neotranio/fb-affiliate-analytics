@@ -1,20 +1,11 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 1148,
-  "totalGroups": 798,
+  "totalPostedLinks": 1157,
+  "totalGroups": 803,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-20T11:12:12.005780",
+  "lastUpdated": "2026-07-20T11:28:07.360544",
   "postedLinks": [
-    "https://s.shopee.vn/AKYmRtQT34",
-    "https://s.shopee.vn/AUsCeCPpi7",
-    "https://s.shopee.vn/70IKTnmf1s",
-    "https://s.shopee.vn/7Abkg6m1gv",
-    "https://s.shopee.vn/6ffU5Bnvhq",
-    "https://s.shopee.vn/7prRTKjUL7",
-    "https://s.shopee.vn/7KvAsPlOM2",
-    "https://s.shopee.vn/7VEb4ikl15",
-    "https://s.shopee.vn/8Kni4FhaKG",
     "https://s.shopee.vn/8V78GYgwzJ",
     "https://s.shopee.vn/80Arfdir0E",
     "https://s.shopee.vn/8AUHrwiDfH",
@@ -505,45 +496,18 @@
     "https://s.shopee.vn/AUsCan1YOx",
     "https://s.shopee.vn/9KgFCe5zlk",
     "https://s.shopee.vn/9UzfOx5MQn",
-    "https://s.shopee.vn/9fJ5bG4j5q"
+    "https://s.shopee.vn/9fJ5bG4j5q",
+    "https://s.shopee.vn/qhh51cM1B",
+    "https://s.shopee.vn/18a5UfWi4",
+    "https://s.shopee.vn/LlQU6eG2A",
+    "https://s.shopee.vn/20teTAXueW",
+    "https://s.shopee.vn/2LWUrmWdyc",
+    "https://s.shopee.vn/2Vpv45W0df",
+    "https://s.shopee.vn/1VxNsFZofV",
+    "https://s.shopee.vn/1gGo4YZBKY",
+    "https://s.shopee.vn/1qaEGrYXzb"
   ],
   "postedTimeline": [
-    {
-      "ts": "2026-07-13T01:13:36.808108",
-      "url": "https://s.shopee.vn/AKYmRtQT34"
-    },
-    {
-      "ts": "2026-07-13T01:14:39.450657",
-      "url": "https://s.shopee.vn/AUsCeCPpi7"
-    },
-    {
-      "ts": "2026-07-13T01:15:38.923348",
-      "url": "https://s.shopee.vn/70IKTnmf1s"
-    },
-    {
-      "ts": "2026-07-13T01:16:24.860386",
-      "url": "https://s.shopee.vn/7Abkg6m1gv"
-    },
-    {
-      "ts": "2026-07-13T01:17:07.313825",
-      "url": "https://s.shopee.vn/6ffU5Bnvhq"
-    },
-    {
-      "ts": "2026-07-13T01:18:02.887260",
-      "url": "https://s.shopee.vn/7prRTKjUL7"
-    },
-    {
-      "ts": "2026-07-13T01:18:49.468439",
-      "url": "https://s.shopee.vn/7KvAsPlOM2"
-    },
-    {
-      "ts": "2026-07-13T01:19:49.913076",
-      "url": "https://s.shopee.vn/7VEb4ikl15"
-    },
-    {
-      "ts": "2026-07-13T01:21:21.567727",
-      "url": "https://s.shopee.vn/8Kni4FhaKG"
-    },
     {
       "ts": "2026-07-13T01:22:20.714925",
       "url": "https://s.shopee.vn/8V78GYgwzJ"
@@ -2507,6 +2471,42 @@
     {
       "ts": "2026-07-20T11:11:07.156355",
       "url": "https://s.shopee.vn/9fJ5bG4j5q"
+    },
+    {
+      "ts": "2026-07-20T11:12:37.985330",
+      "url": "https://s.shopee.vn/qhh51cM1B"
+    },
+    {
+      "ts": "2026-07-20T11:14:43.955934",
+      "url": "https://s.shopee.vn/18a5UfWi4"
+    },
+    {
+      "ts": "2026-07-20T11:17:14.168632",
+      "url": "https://s.shopee.vn/LlQU6eG2A"
+    },
+    {
+      "ts": "2026-07-20T11:18:42.450542",
+      "url": "https://s.shopee.vn/20teTAXueW"
+    },
+    {
+      "ts": "2026-07-20T11:20:20.602979",
+      "url": "https://s.shopee.vn/2LWUrmWdyc"
+    },
+    {
+      "ts": "2026-07-20T11:21:29.348069",
+      "url": "https://s.shopee.vn/2Vpv45W0df"
+    },
+    {
+      "ts": "2026-07-20T11:22:50.159025",
+      "url": "https://s.shopee.vn/1VxNsFZofV"
+    },
+    {
+      "ts": "2026-07-20T11:24:00.736506",
+      "url": "https://s.shopee.vn/1gGo4YZBKY"
+    },
+    {
+      "ts": "2026-07-20T11:25:42.707200",
+      "url": "https://s.shopee.vn/1qaEGrYXzb"
     }
   ],
   "groupLinkMap": {
@@ -2869,7 +2869,8 @@
       "https://s.shopee.vn/5q6N24XCLa"
     ],
     "https://www.facebook.com/groups/965389310300207": [
-      "https://s.shopee.vn/5fmwplXpgZ"
+      "https://s.shopee.vn/5fmwplXpgZ",
+      "https://s.shopee.vn/1gGo4YZBKY"
     ],
     "https://www.facebook.com/groups/919046581825285": [
       "https://s.shopee.vn/70IKQDSkyx"
@@ -3252,8 +3253,8 @@
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 21,
-      "groups_used_count": 26,
+      "posted_count": 30,
+      "groups_used_count": 37,
       "status": "active",
       "anonymous_commented": 0
     },
