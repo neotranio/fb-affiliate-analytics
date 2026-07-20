@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 9,
-  "totalGroups": 9,
+  "totalPostedLinks": 20,
+  "totalGroups": 20,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-20T13:10:53.957079",
+  "lastUpdated": "2026-07-20T13:26:33.509776",
   "postedLinks": [
     "https://s.shopee.vn/BSDx9L0HV",
     "https://s.shopee.vn/W54LlJjbb",
@@ -14,7 +14,18 @@
     "https://s.shopee.vn/3LPFiy8wrI",
     "https://s.shopee.vn/3VifvH8JWL",
     "https://s.shopee.vn/3qLWJt72qR",
-    "https://s.shopee.vn/2g9YvkBUDE"
+    "https://s.shopee.vn/2g9YvkBUDE",
+    "https://s.shopee.vn/2qSz83AqsH",
+    "https://s.shopee.vn/3B5pWf9aCN",
+    "https://s.shopee.vn/50XTi22bTm",
+    "https://s.shopee.vn/5AqtuL1y8p",
+    "https://s.shopee.vn/40ewWC6PVc",
+    "https://s.shopee.vn/60Q0trynS4",
+    "https://s.shopee.vn/2Vq8jRC7Y3",
+    "https://s.shopee.vn/30mPKMADXK",
+    "https://s.shopee.vn/6L2rITxWmA",
+    "https://s.shopee.vn/AKZ03piIfK",
+    "https://s.shopee.vn/9KgSrzm6hA"
   ],
   "postedTimeline": [
     {
@@ -52,6 +63,50 @@
     {
       "ts": "2026-07-20T13:10:00.194262",
       "url": "https://s.shopee.vn/2g9YvkBUDE"
+    },
+    {
+      "ts": "2026-07-20T13:11:50.128034",
+      "url": "https://s.shopee.vn/2qSz83AqsH"
+    },
+    {
+      "ts": "2026-07-20T13:13:14.697912",
+      "url": "https://s.shopee.vn/3B5pWf9aCN"
+    },
+    {
+      "ts": "2026-07-20T13:14:30.456219",
+      "url": "https://s.shopee.vn/50XTi22bTm"
+    },
+    {
+      "ts": "2026-07-20T13:15:54.097088",
+      "url": "https://s.shopee.vn/5AqtuL1y8p"
+    },
+    {
+      "ts": "2026-07-20T13:17:02.696410",
+      "url": "https://s.shopee.vn/40ewWC6PVc"
+    },
+    {
+      "ts": "2026-07-20T13:18:55.994744",
+      "url": "https://s.shopee.vn/60Q0trynS4"
+    },
+    {
+      "ts": "2026-07-20T13:20:32.550394",
+      "url": "https://s.shopee.vn/2Vq8jRC7Y3"
+    },
+    {
+      "ts": "2026-07-20T13:22:14.068372",
+      "url": "https://s.shopee.vn/30mPKMADXK"
+    },
+    {
+      "ts": "2026-07-20T13:23:28.158706",
+      "url": "https://s.shopee.vn/6L2rITxWmA"
+    },
+    {
+      "ts": "2026-07-20T13:24:32.009422",
+      "url": "https://s.shopee.vn/AKZ03piIfK"
+    },
+    {
+      "ts": "2026-07-20T13:25:37.732557",
+      "url": "https://s.shopee.vn/9KgSrzm6hA"
     }
   ],
   "groupLinkMap": {
@@ -81,13 +136,46 @@
     ],
     "https://www.facebook.com/groups/239661455165452": [
       "https://s.shopee.vn/2g9YvkBUDE"
+    ],
+    "https://www.facebook.com/groups/1326501731677500": [
+      "https://s.shopee.vn/2qSz83AqsH"
+    ],
+    "https://www.facebook.com/groups/613531607414257": [
+      "https://s.shopee.vn/3B5pWf9aCN"
+    ],
+    "https://www.facebook.com/groups/muabanpassmauvedungcuve": [
+      "https://s.shopee.vn/50XTi22bTm"
+    ],
+    "https://www.facebook.com/groups/361061586498042": [
+      "https://s.shopee.vn/5AqtuL1y8p"
+    ],
+    "https://www.facebook.com/groups/720723970223241": [
+      "https://s.shopee.vn/40ewWC6PVc"
+    ],
+    "https://www.facebook.com/groups/581450186128624": [
+      "https://s.shopee.vn/60Q0trynS4"
+    ],
+    "https://www.facebook.com/groups/661859651519965": [
+      "https://s.shopee.vn/2Vq8jRC7Y3"
+    ],
+    "https://www.facebook.com/groups/634966788053380": [
+      "https://s.shopee.vn/30mPKMADXK"
+    ],
+    "https://www.facebook.com/groups/950752842346785": [
+      "https://s.shopee.vn/6L2rITxWmA"
+    ],
+    "https://www.facebook.com/groups/NguyenVuGroup102": [
+      "https://s.shopee.vn/AKZ03piIfK"
+    ],
+    "https://www.facebook.com/groups/788277739093805": [
+      "https://s.shopee.vn/9KgSrzm6hA"
     ]
   },
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 9,
-      "groups_used_count": 9,
+      "posted_count": 20,
+      "groups_used_count": 20,
       "status": "active",
       "anonymous_commented": 0
     },
