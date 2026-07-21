@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 30,
-  "totalGroups": 30,
+  "totalPostedLinks": 36,
+  "totalGroups": 35,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-21T14:14:41.087922",
+  "lastUpdated": "2026-07-21T14:30:33.228897",
   "postedLinks": [
     "https://s.shopee.vn/W54LlJjbb",
     "https://s.shopee.vn/20ts8WE1Yu",
@@ -35,7 +35,13 @@
     "https://s.shopee.vn/60Q0trynS4",
     "https://s.shopee.vn/4fudJQ3s9g",
     "https://s.shopee.vn/AKZ03piIfK",
-    "https://s.shopee.vn/9KgSrzm6hA"
+    "https://s.shopee.vn/9KgSrzm6hA",
+    "https://s.shopee.vn/Lle9SKMwY",
+    "https://s.shopee.vn/3qLWJt72qR",
+    "https://s.shopee.vn/AAFZrWiw0H",
+    "https://s.shopee.vn/AUsQG8hfKN",
+    "https://s.shopee.vn/9Uzt4IlTMD",
+    "https://s.shopee.vn/9pcjSukCgJ"
   ],
   "postedTimeline": [
     {
@@ -157,6 +163,30 @@
     {
       "ts": "2026-07-21T14:12:19.461515",
       "url": "https://s.shopee.vn/9KgSrzm6hA"
+    },
+    {
+      "ts": "2026-07-21T14:19:38.544070",
+      "url": "https://s.shopee.vn/Lle9SKMwY"
+    },
+    {
+      "ts": "2026-07-21T14:20:41.925453",
+      "url": "https://s.shopee.vn/3qLWJt72qR"
+    },
+    {
+      "ts": "2026-07-21T14:22:39.521184",
+      "url": "https://s.shopee.vn/AAFZrWiw0H"
+    },
+    {
+      "ts": "2026-07-21T14:23:51.658544",
+      "url": "https://s.shopee.vn/AUsQG8hfKN"
+    },
+    {
+      "ts": "2026-07-21T14:24:53.327212",
+      "url": "https://s.shopee.vn/9Uzt4IlTMD"
+    },
+    {
+      "ts": "2026-07-21T14:26:06.873869",
+      "url": "https://s.shopee.vn/9pcjSukCgJ"
     }
   ],
   "groupLinkMap": {
@@ -224,7 +254,8 @@
       "https://s.shopee.vn/6L2rITxWmA"
     ],
     "https://www.facebook.com/groups/1749127052072088": [
-      "https://s.shopee.vn/1VxbXbFvZt"
+      "https://s.shopee.vn/1VxbXbFvZt",
+      "https://s.shopee.vn/9pcjSukCgJ"
     ],
     "https://www.facebook.com/groups/185153601636847": [
       "https://s.shopee.vn/2qSz83AqsH"
@@ -249,13 +280,28 @@
     ],
     "https://www.facebook.com/groups/tamsumyphamvalamdep": [
       "https://s.shopee.vn/9KgSrzm6hA"
+    ],
+    "https://www.facebook.com/groups/682374283368244": [
+      "https://s.shopee.vn/Lle9SKMwY"
+    ],
+    "https://www.facebook.com/groups/1227176670714232": [
+      "https://s.shopee.vn/3qLWJt72qR"
+    ],
+    "https://www.facebook.com/groups/782607302447621": [
+      "https://s.shopee.vn/AAFZrWiw0H"
+    ],
+    "https://www.facebook.com/groups/skincare.reviewmypham": [
+      "https://s.shopee.vn/AUsQG8hfKN"
+    ],
+    "https://www.facebook.com/groups/145901115452356": [
+      "https://s.shopee.vn/9Uzt4IlTMD"
     ]
   },
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 30,
-      "groups_used_count": 34,
+      "posted_count": 0,
+      "groups_used_count": 0,
       "status": "active",
       "anonymous_commented": 0
     },
