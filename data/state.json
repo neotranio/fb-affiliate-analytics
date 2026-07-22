@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 23,
-  "totalGroups": 23,
+  "totalPostedLinks": 35,
+  "totalGroups": 35,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-22T23:34:24.590069",
+  "lastUpdated": "2026-07-22T23:50:09.970653",
   "postedLinks": [
     "https://s.shopee.vn/BSDx9L0HV",
     "https://s.shopee.vn/Lle9SKMwY",
@@ -28,7 +28,19 @@
     "https://s.shopee.vn/9Uzt4IlTMD",
     "https://s.shopee.vn/9pcjSukCgJ",
     "https://s.shopee.vn/3VifvH8JWL",
-    "https://s.shopee.vn/3B5pWf9aCN"
+    "https://s.shopee.vn/3B5pWf9aCN",
+    "https://s.shopee.vn/7KvaSqHCVd",
+    "https://s.shopee.vn/6Ajd4hLdsW",
+    "https://s.shopee.vn/W5GKHhDO2",
+    "https://s.shopee.vn/Llq7yhqj1",
+    "https://s.shopee.vn/AUscEf5963",
+    "https://s.shopee.vn/7AcAGXHprj",
+    "https://s.shopee.vn/9zwLdk735t",
+    "https://s.shopee.vn/4fupHwRLvN",
+    "https://s.shopee.vn/7VF0f9GZBh",
+    "https://s.shopee.vn/1qadujc8f7",
+    "https://s.shopee.vn/1BKx7Veg13",
+    "https://s.shopee.vn/Llq7yhqhw"
   ],
   "postedTimeline": [
     {
@@ -122,6 +134,54 @@
     {
       "ts": "2026-07-22T23:01:55.328107",
       "url": "https://s.shopee.vn/3B5pWf9aCN"
+    },
+    {
+      "ts": "2026-07-22T23:37:18.389654",
+      "url": "https://s.shopee.vn/7KvaSqHCVd"
+    },
+    {
+      "ts": "2026-07-22T23:38:15.677583",
+      "url": "https://s.shopee.vn/6Ajd4hLdsW"
+    },
+    {
+      "ts": "2026-07-22T23:39:14.144196",
+      "url": "https://s.shopee.vn/W5GKHhDO2"
+    },
+    {
+      "ts": "2026-07-22T23:40:19.074565",
+      "url": "https://s.shopee.vn/Llq7yhqj1"
+    },
+    {
+      "ts": "2026-07-22T23:41:27.402199",
+      "url": "https://s.shopee.vn/AUscEf5963"
+    },
+    {
+      "ts": "2026-07-22T23:42:29.020180",
+      "url": "https://s.shopee.vn/7AcAGXHprj"
+    },
+    {
+      "ts": "2026-07-22T23:43:27.794726",
+      "url": "https://s.shopee.vn/9zwLdk735t"
+    },
+    {
+      "ts": "2026-07-22T23:44:35.152198",
+      "url": "https://s.shopee.vn/4fupHwRLvN"
+    },
+    {
+      "ts": "2026-07-22T23:45:38.991526",
+      "url": "https://s.shopee.vn/7VF0f9GZBh"
+    },
+    {
+      "ts": "2026-07-22T23:46:46.189824",
+      "url": "https://s.shopee.vn/1qadujc8f7"
+    },
+    {
+      "ts": "2026-07-22T23:47:56.952889",
+      "url": "https://s.shopee.vn/1BKx7Veg13"
+    },
+    {
+      "ts": "2026-07-22T23:49:04.199254",
+      "url": "https://s.shopee.vn/Llq7yhqhw"
     }
   ],
   "groupLinkMap": {
@@ -193,6 +253,42 @@
     ],
     "https://www.facebook.com/groups/1592318594758081": [
       "https://s.shopee.vn/3B5pWf9aCN"
+    ],
+    "https://www.facebook.com/groups/skincarechodadaumunnhaycam": [
+      "https://s.shopee.vn/7KvaSqHCVd"
+    ],
+    "https://www.facebook.com/groups/611577380184289": [
+      "https://s.shopee.vn/6Ajd4hLdsW"
+    ],
+    "https://www.facebook.com/groups/1160813065689384": [
+      "https://s.shopee.vn/W5GKHhDO2"
+    ],
+    "https://www.facebook.com/groups/598639891313772": [
+      "https://s.shopee.vn/Llq7yhqj1"
+    ],
+    "https://www.facebook.com/groups/755730167595099": [
+      "https://s.shopee.vn/AUscEf5963"
+    ],
+    "https://www.facebook.com/groups/1111089654305909": [
+      "https://s.shopee.vn/7AcAGXHprj"
+    ],
+    "https://www.facebook.com/groups/541060769369048": [
+      "https://s.shopee.vn/9zwLdk735t"
+    ],
+    "https://www.facebook.com/groups/1054002909735192": [
+      "https://s.shopee.vn/4fupHwRLvN"
+    ],
+    "https://www.facebook.com/groups/563018384194545": [
+      "https://s.shopee.vn/7VF0f9GZBh"
+    ],
+    "https://www.facebook.com/groups/288241062142581": [
+      "https://s.shopee.vn/1qadujc8f7"
+    ],
+    "https://www.facebook.com/groups/3307843052816793": [
+      "https://s.shopee.vn/1BKx7Veg13"
+    ],
+    "https://www.facebook.com/groups/468529746859006": [
+      "https://s.shopee.vn/Llq7yhqhw"
     ]
   },
   "accounts": [
@@ -205,8 +301,8 @@
     },
     {
       "email": "tgh162003@gmail.com",
-      "posted_count": 2,
-      "groups_used_count": 2,
+      "posted_count": 14,
+      "groups_used_count": 14,
       "status": "active",
       "anonymous_commented": 0
     }
