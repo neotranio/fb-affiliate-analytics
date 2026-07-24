@@ -1,19 +1,70 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 0,
-  "totalGroups": 0,
+  "totalPostedLinks": 6,
+  "totalGroups": 6,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-24T15:04:16.292125",
-  "postedLinks": [],
-  "postedTimeline": [],
-  "groupLinkMap": {},
+  "lastUpdated": "2026-07-24T15:19:39.961736",
+  "postedLinks": [
+    "https://s.shopee.vn/7KvaSqHCVd",
+    "https://s.shopee.vn/AUscEf5963",
+    "https://s.shopee.vn/7AcAGXHprj",
+    "https://s.shopee.vn/9zwLdk735t",
+    "https://s.shopee.vn/4fupHwRLvN",
+    "https://s.shopee.vn/1BKx7Veg13"
+  ],
+  "postedTimeline": [
+    {
+      "ts": "2026-07-24T15:08:54.668867",
+      "url": "https://s.shopee.vn/7KvaSqHCVd"
+    },
+    {
+      "ts": "2026-07-24T15:11:09.680198",
+      "url": "https://s.shopee.vn/AUscEf5963"
+    },
+    {
+      "ts": "2026-07-24T15:14:18.724257",
+      "url": "https://s.shopee.vn/7AcAGXHprj"
+    },
+    {
+      "ts": "2026-07-24T15:15:16.491401",
+      "url": "https://s.shopee.vn/9zwLdk735t"
+    },
+    {
+      "ts": "2026-07-24T15:16:01.652209",
+      "url": "https://s.shopee.vn/4fupHwRLvN"
+    },
+    {
+      "ts": "2026-07-24T15:19:32.340388",
+      "url": "https://s.shopee.vn/1BKx7Veg13"
+    }
+  ],
+  "groupLinkMap": {
+    "https://www.facebook.com/groups/955197761687239": [
+      "https://s.shopee.vn/7KvaSqHCVd"
+    ],
+    "https://www.facebook.com/groups/137143408621960": [
+      "https://s.shopee.vn/AUscEf5963"
+    ],
+    "https://www.facebook.com/groups/2888678238054961": [
+      "https://s.shopee.vn/7AcAGXHprj"
+    ],
+    "https://www.facebook.com/groups/1171966044421677": [
+      "https://s.shopee.vn/9zwLdk735t"
+    ],
+    "https://www.facebook.com/groups/817817958303844": [
+      "https://s.shopee.vn/4fupHwRLvN"
+    ],
+    "https://www.facebook.com/groups/1208642860917151": [
+      "https://s.shopee.vn/1BKx7Veg13"
+    ]
+  },
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 0,
-      "groups_used_count": 0,
-      "status": "active",
+      "posted_count": 6,
+      "groups_used_count": 12,
+      "status": "rate_limited",
       "anonymous_commented": 0
     },
     {
