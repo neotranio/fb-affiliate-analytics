@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "totalPostedLinks": 35,
-  "totalGroups": 35,
+  "totalPostedLinks": 40,
+  "totalGroups": 40,
   "activeAccounts": 2,
   "currentCycle": 2,
-  "lastUpdated": "2026-07-24T18:52:42.238200",
+  "lastUpdated": "2026-07-24T19:08:22.253062",
   "postedLinks": [
     "https://s.shopee.vn/9fJVF88Jlv",
     "https://s.shopee.vn/7KvaSqHCVd",
@@ -40,7 +40,12 @@
     "https://s.shopee.vn/1LeNJoe2h3",
     "https://s.shopee.vn/1qadujc8gA",
     "https://s.shopee.vn/1gHDiQcm19",
-    "https://s.shopee.vn/qi6itfwi0"
+    "https://s.shopee.vn/qi6itfwi0",
+    "https://s.shopee.vn/AKZC2M5mPz",
+    "https://s.shopee.vn/9KgeqW9aRp",
+    "https://s.shopee.vn/9ANEeDADms",
+    "https://s.shopee.vn/903oRuAr7r",
+    "https://s.shopee.vn/8AUhSNE1oi"
   ],
   "postedTimeline": [
     {
@@ -182,6 +187,26 @@
     {
       "ts": "2026-07-24T18:47:23.579480",
       "url": "https://s.shopee.vn/qi6itfwi0"
+    },
+    {
+      "ts": "2026-07-24T18:55:32.509230",
+      "url": "https://s.shopee.vn/AKZC2M5mPz"
+    },
+    {
+      "ts": "2026-07-24T19:00:32.336262",
+      "url": "https://s.shopee.vn/9KgeqW9aRp"
+    },
+    {
+      "ts": "2026-07-24T19:03:27.654251",
+      "url": "https://s.shopee.vn/9ANEeDADms"
+    },
+    {
+      "ts": "2026-07-24T19:05:46.806263",
+      "url": "https://s.shopee.vn/903oRuAr7r"
+    },
+    {
+      "ts": "2026-07-24T19:06:50.258513",
+      "url": "https://s.shopee.vn/8AUhSNE1oi"
     }
   ],
   "groupLinkMap": {
@@ -289,13 +314,28 @@
     ],
     "https://www.facebook.com/groups/1086159041483213": [
       "https://s.shopee.vn/qi6itfwi0"
+    ],
+    "https://www.facebook.com/groups/855013942452244": [
+      "https://s.shopee.vn/AKZC2M5mPz"
+    ],
+    "https://www.facebook.com/groups/741452423847841": [
+      "https://s.shopee.vn/9KgeqW9aRp"
+    ],
+    "https://www.facebook.com/groups/perfumeauthenticdanang": [
+      "https://s.shopee.vn/9ANEeDADms"
+    ],
+    "https://www.facebook.com/groups/1208233650888349": [
+      "https://s.shopee.vn/903oRuAr7r"
+    ],
+    "https://www.facebook.com/groups/combosapa.review": [
+      "https://s.shopee.vn/8AUhSNE1oi"
     ]
   },
   "accounts": [
     {
       "email": "huyhaihuoc1603@gmail.com",
-      "posted_count": 0,
-      "groups_used_count": 0,
+      "posted_count": 5,
+      "groups_used_count": 12,
       "status": "active",
       "anonymous_commented": 0
     },
